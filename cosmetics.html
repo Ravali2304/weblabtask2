@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetic Online Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #ffb6c1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to GlamZone - Your Cosmetic Heaven</h1>
+    </header>
+
+    <nav>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="products">
+            <h2>Our Top Products</h2>
+            <p>Check out our best-selling products:</p>
+            <ul>
+                <li>Lipsticks</li>
+                <li>Foundations</li>
+                <li>Mascaras</li>
+                <li>Eye Shadows</li>
+            </ul>
+            <p>Some featured products:</p>
+            <img src="https://via.placeholder.com/600x200" alt="Featured Products">
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p><b>GlamZone</b> is your go-to online store for all cosmetic needs. We offer high-quality products for every skin type.</p>
+            <p><i>Transforming beauty one product at a time!</i></p>
+        </section>
+
+        <section id="pricing">
+            <h2>Price List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lipstick</td>
+                        <td>$20</td>
+                    </tr>
+                    <tr>
+                        <td>Foundation</td>
+                        <td>$35</td>
+                    </tr>
+                    <tr>
+                        <td>Mascara</td>
+                        <td>$15</td>
+                    </tr>
+                    <tr>
+                        <td>Eye Shadow</td>
+                        <td>$25</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+
+        <section id="extra">
+            <h2>Our Partners</h2>
+            <iframe src="https://www.example.com" width="100%" height="200" title="Our Partner"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 GlamZone. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
